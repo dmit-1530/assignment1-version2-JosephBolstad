@@ -4,7 +4,7 @@ This lab is an idividual exercise worth 20% of your overall mark.
 
 For the complete rubric and Figma wireframe, please refer to your course section's Brightspace instance. 
 
-The following instructions will help you work through the HTML and CSS required to create this website.
+The following instructions will help you work through the HTML and CSS required to create this website.s
 
 ## Introduction
 

@@ -7,11 +7,119 @@
 
 body {
     color: #000;
-    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header, footer {
-    background-color: var(--blue-grey-50);
+    background-color: var(--blue-grey-900);
     color: #fff;
-    padding: 2rem 4rem;   
+    padding: 0.5rem 3rem;   
+}
+nav ul{
+     align-items: center;
+     display: flex;
+     list-style-type: none;
+     justify-content: space-between;
+}
+header img{
+     margin: 2rem 0;
+}
+section:first-of-type{
+     background-color: var(--blue-grey-50);
+}
+section{
+     padding: 1rem;
+}
+h1{
+     padding: 3rem;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 3rem;
+     font-size: 2rem;
+     font-weight: 200;
+}
+h2{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 3rem;
+     font-size: 2rem;
+     font-weight: 200; 
+}
+h3{
+     text-align: center;
+}
+.asterisk{
+     text-align: center;
+     font-size: 3rem;
+}
+p{
+     text-align: center; 
+}
+.button{
+     background-color: var(--blue-grey-900);
+     padding: 1rem;
+     border-radius: 4px;
+     color: var(--blue-grey-100);
+     display: flex;
+     justify-content: center;
+     margin:  3rem auto;
+     width: 7rem;
+     text-decoration: none;
+}
+main section img{
+     border-radius: 0.5rem;
+}
+.quote-section{
+     background-color: var(--blue-grey-200);
+     padding: 2rem;
+     text-align: center;
+     color: white;
+     line-height: 2;
+     font-size: 1.75rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote-section p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1rem; 
+}
+span{
+     font-weight: bold;
+}
+footer ul{
+     list-style-type: none;
+     font-size: .65rem;}
+.flex{
+     display: flex;
+     align-items: center;
+}
+footer p{
+     font-size: .65rem;
+     
+}
+section:nth-of-type(4){
+     background-color: #37474F;
+}
+.round-card{
+     background-color: white;
+     border-radius: 1rem;
+     
+}
+.round-card h2, 
+.round-card p,
+.round-card button{
+     padding: 0 2rem ;
+}
+.round-p{
+     padding: 1rem;
+}
+footer img{
+     margin-top: 2.5rem;
+}
+.align-left{
+     text-align: left;
+     /* Note - this code wasn't working until I clicked on the contextual
+     menu for code. For some reason typing the code wouldn't pick it up. Weird. */
+}
+footer li{
+     line-height: 1.4rem;
 }
