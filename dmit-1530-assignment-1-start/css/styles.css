@@ -11,7 +11,7 @@ body {
 }
 
 header, footer {
-    background-color: var(--blue-grey-900);
+    background-color: #111111;
     color: #fff;
     padding: 0.5rem 3rem;   
 }
@@ -183,6 +183,30 @@ footer li{
      background-color: white;
      color: black;
 }
+.gallery section:nth-of-type(2){
+     background-color: #37474F;
+     color: white;
+}
+.gallery section:nth-of-type(3){
+     background-color: var(--blue-grey-900);
+     color: white;
+}
 
-
-
+/* Gallery Media Queries */
+@media screen and (min-width: 540px){
+     .gallery .first-section{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+     }
+     .gallery .direction{
+          display: flex;
+          flex-direction: row-reverse;
+     }
+     .gallery .center{
+          text-align: center;
+     }
+}
+  
