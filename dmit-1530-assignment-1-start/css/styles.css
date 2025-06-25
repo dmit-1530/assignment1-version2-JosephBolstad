@@ -20,12 +20,14 @@ nav ul{
      display: flex;
      list-style-type: none;
      justify-content: space-between;
+     max-width: 18rem;
 }
 header img{
      margin: 2rem 0;
 }
 section:first-of-type{
      background-color: var(--blue-grey-50);
+     padding: 2rem;
 }
 section{
      padding: 1rem;
@@ -102,6 +104,8 @@ section:nth-of-type(4){
 .round-card{
      background-color: white;
      border-radius: 1rem;
+     margin: 1rem auto;
+     max-width: 20rem;
      
 }
 .round-card h2, 
@@ -112,14 +116,62 @@ section:nth-of-type(4){
 .round-p{
      padding: 1rem;
 }
-footer img{
-     margin-top: 2.5rem;
+
+.footer-card{
+     margin: 1rem auto;
 }
+footer img{
+     margin: 1.5rem auto; 
+
+}
+
 .align-left{
      text-align: left;
      /* Note - this code wasn't working until I clicked on the contextual
      menu for code. For some reason typing the code wouldn't pick it up. Weird. */
 }
+
 footer li{
      line-height: 1.4rem;
 }
+
+/* Media Queries - Breakpoints */
+@media screen and (min-width: 540px){
+     header {
+          display: flex;
+          justify-content: space-between;
+     }
+     header li{
+          margin-left: 2rem;
+          margin-top: 2rem;
+     }
+     .feature-cards{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+     }
+     .card{
+          width: calc((100% / 2) - (1rem / 2))
+     }
+     .card img{
+          margin-top: 2.75rem;
+     }
+     .footer-card{
+          display: flex;
+     }
+
+}
+@media screen and (min-width: 980px){
+     .feature-cards{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          justify-content: center;
+     }
+
+}
+
+
+
