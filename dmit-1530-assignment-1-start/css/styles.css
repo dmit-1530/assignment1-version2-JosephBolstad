@@ -208,5 +208,16 @@ footer li{
      .gallery .center{
           text-align: center;
      }
+
+     .gallery .second-section{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+     }
+     .gallery .second-section p{
+          width: calc((100% / 2) - (1rem / 2))
+
+     } 
+
 }
   
