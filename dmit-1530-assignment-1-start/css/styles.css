@@ -172,6 +172,17 @@ footer li{
      }
 
 }
+/* Gallery Section */
+.gallery p,
+.gallery h2,
+.gallery h3{
+     text-align: left;
+     padding: 1rem;
+}
+.gallery .quote-section{
+     background-color: white;
+     color: black;
+}
 
 
 
